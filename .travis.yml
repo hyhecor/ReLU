@@ -1,0 +1,10 @@
+language: go
+
+go:
+- 1.x
+
+env:
+- GO111MODULE=on
+
+before_install:
+- go get -v github.com/stretchr/testify/assert
